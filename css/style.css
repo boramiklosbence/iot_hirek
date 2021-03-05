@@ -1,37 +1,54 @@
-
-header{    
-    background-position: center center;
-	background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  background-image: url(../img/robik.png);
 }
 
-h1{
-    background-color: rgb(248, 248, 248);
-    margin-top: 350px;
-    text-align: center;    
+h1 {
+  background-color: rgb(248, 248, 248, 0.25);
+  font-family: Verdana;
+  color: #378bda;
+  font-weight: bold;
+  margin-top: 350px;
+  text-align: center;
 }
 
-h2{    
-    margin-top: 10px;    
+h2 {
+  margin-top: 10px;
+  color: #378bda;
+  border-left: 3px dashed #378bda;
+  font-variant: small-caps;
+  padding: 5px 15px 5px 15px;
 }
 
-h3{    
-    font-weight: bold;
-    color:#378bda;    
+h3 {
+  font-weight: bold;
+  color: #378bda;
+  text-align: center;
+  font-size: 130%;
+  letter-spacing: 1px;
 }
 
-
-li{
-    list-style-image: url(../img/rf.png);
+li {
+  list-style-image: url(../img/rf.png);
+  float: left;
+  margin-left: 40px;
 }
 
-
-td,th{
-    text-align: center;
+td,
+th {
+  text-align: center;
 }
 
-thead>tr:first-child{    
-    letter-spacing: 2px;    
+thead > tr:first-child {
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
+p {
+  text-align: justify;
+  text-indent: 15px;
+}
