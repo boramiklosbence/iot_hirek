@@ -1,53 +1,60 @@
+/* Header Styles */
 header {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   height: 500px;
   background-image: url(../img/robik.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+/* Main Heading Styles */
 h1 {
-  background-color: rgb(248, 248, 248, 0.25);
-  font-family: Verdana;
-  color: #378bda;
+  font-family: Verdana, sans-serif;
   font-weight: bold;
-  margin-top: 350px;
+  color: #378bda;
   text-align: center;
+  margin-top: 350px;
+  background-color: rgba(248, 248, 248, 0.25);
+  padding: 10px;
 }
 
+/* Subheading Styles */
 h2 {
   margin-top: 10px;
   color: #378bda;
   border-left: 3px dashed #378bda;
   font-variant: small-caps;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 15px;
 }
 
+/* Section Heading Styles */
 h3 {
   font-weight: bold;
   color: #378bda;
   text-align: center;
-  font-size: 130%;
+  font-size: 1.3rem;
   letter-spacing: 1px;
 }
 
+/* List Item Styles */
 li {
   list-style-image: url(../img/rf.png);
-  float: left;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
+/* Table Cell Styles */
 td,
 th {
   text-align: center;
 }
 
+/* Table Header Styles */
 thead > tr:first-child {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
+/* Paragraph Styles */
 p {
   text-align: justify;
   text-indent: 15px;
